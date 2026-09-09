@@ -1,8 +1,7 @@
-let obj = {
-   item : "pen",
-   price : 10,
-};
+let num = [2,3,4,5,6];
 
-let output = `item : ${obj.item}\n price : ${obj.price}`;
+const calcSq = (num) => {
+  console.log(num * num);
+}
 
-console.log(output);
+num.forEach(calcSq);
